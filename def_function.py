@@ -630,4 +630,107 @@ def hello (fname,lname,date):
 hello("Ashwin", "nair", "4/5/61")
 hello("Sabin", "Nqa", "5/6/76")
 
+
+
+
+# Example 6
+
+def change_me(v):
+      print ("function got:", v)
+v = 10
+print ("argument is now:", v)
+myvar = 5
+print ("starting with:", myvar)
+change_me(myvar)
+print ("ending with:", myvar)
+ 
+
+
+
+# Example 7
+def user():
+    username = input("Enter your name\n")
+    userid = input("Enter your userid \n")
+ 
+     
+
+user()
+ 
+# Now useing def function with lists 
+def lst1():
+    a = [1,3,45,6,7,8]
+    b = [3.5,7,8,943]
+    a.reverse()
+    b.index(8)
+    print(a,b)
+lst1()
+
+# Now with dir
+def dir1():
+    a = {
+        "Apple":34,
+        "Mango":43,
+        "violet":21
+    }
+
+    b = {"Brinjal":56,"Cabbage":32,"okra":90}
+
+    print(a,b)
+
+dir1()
+
+
+
+
+
+# Default Values in def function
+ 
+
+ 
+# When writing a function, you can define a default value for each parameter. 
+# If an argument for a parameter is provided in the function call, Python uses 
+# the argument value. If not, it uses the parameter’s default value. So when 
+# you define a default value for a parameter, you can exclude the corresponding 
+# argument you’d usually write in the function call. Using default values 
+# can simplify your function calls and clarify the ways in which your functions 
+# are typically used.
+
+
+
+
+# Example 1
+def describe_pet(pet_name, animal_type='dog'):
+ """Display information about a pet."""
+ print(f"\nI have a {animal_type}.")
+ print(f"My {animal_type}'s name is {pet_name.title()}.")
+describe_pet(pet_name='willie')
+
+# Example 2
+def Movies_you_luv(moviename='bhahubali',Theater='Mumbai'):
+    print(f"I have going to watch\n{moviename}")
+    print(f"Movie was in {Theater}")
+
+Movies_you_luv()
+
+
+
+#  Avoiding Argument Errors:
+
+# When you start to use functions, don’t be surprised if you encounter errors 
+# about unmatched arguments. Unmatched arguments occur when you 
+# provide fewer or more arguments than a function needs to do its work.
+
+
+# Example 1
+# def describe_pet(animal_type, pet_name):
+#  """Display information about a pet."""
+#  print(f"\nI have a {animal_type}.")
+#  print(f"My {animal_type}'s name is {pet_name.title()}.")
+# describe_pet()
+# # Error output shown n this program
+
+# Python recognizes that some information is missing from the function 
+# call, and the traceback tells us
+
+
  
