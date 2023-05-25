@@ -2,7 +2,7 @@ I have started really late for this repository taken 2 month of due to presonal 
 python which has been halted . but any how now i  continues my self_taught journey 
 
 
-This time i have approch microsofts (Browser) edges chatbot for explanation of codes or u can syntax that i dont understand
+This time i have approch microsofts (Browser) edges chatbot for explanation of codes or u can say syntax that i dont understand
 instead of youtube video searching
 
 Books was my main source this time 
